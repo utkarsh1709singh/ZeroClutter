@@ -1,0 +1,24 @@
+{
+  "name": "zeroclutter",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+  "build": "tsc",
+  "start": "node ./bin/cli.js",
+  "lint": "eslint src --ext .ts",
+  "test": "jest"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "description": "",
+  "devDependencies": {
+    "@types/node": "^22.15.17",
+    "typescript": "^5.8.3"
+  },
+  "dependencies": {
+    "@oclif/command": "^1.8.36",
+    "@oclif/config": "^1.18.17"
+  }
+  
+}
