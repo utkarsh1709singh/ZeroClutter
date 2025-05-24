@@ -1,30 +1,14 @@
-# Dependency folders
-node_modules/
+*-debug.log
+*-error.log
+**/.DS_Store
+/.idea
+/dist
+/tmp
+/node_modules
+oclif.manifest.json
 
-# TypeScript
-dist/            # compiled JavaScript output
-lib/             # alternate build folder
-*.tsbuildinfo    # TS incremental build cache
 
-# Logs
-logs/
-*.log
 
-# Environment variables
-.env
-.env.*.local
+yarn.lock
+pnpm-lock.yaml
 
-# OS files
-.DS_Store
-Thumbs.db
-
-# IDE/editor settings
-.vscode/
-.idea/
-
-# Git hooks (if you end up using Husky later)
-.husky/
-
-# Optional lockfile: uncomment only if you don't want to commit one
-# package-lock.json
-# yarn.lock
